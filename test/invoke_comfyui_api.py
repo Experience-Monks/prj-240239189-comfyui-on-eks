@@ -9,9 +9,9 @@ import random
 import time
 import threading
 
-SERVER_ADDRESS = "abcdefg123456.cloudfront.net"
-HTTPS = True
-SHOW_IMAGES = True
+SERVER_ADDRESS = "k8s-default-comfyuii-74cd8f9a9e-1168616089.us-east-1.elb.amazonaws.com"
+HTTPS = False
+SHOW_IMAGES = False
 REQUEST_API_JSON = "./sdxl_refiner_prompt_api.json"
 
 # Send prompt request to server and get prompt_id and AWSALB cookie

@@ -21,7 +21,7 @@ spec:
           claimName: comfyui-outputs-pvc # Need to apply sd-outputs-s3.yaml first
       containers:
       - name: comfyui
-        image: 123456789012.dkr.ecr.us-west-2.amazonaws.com/comfyui-images:latest
+        image: 211125431736.dkr.ecr.us-east-1.amazonaws.com/comfyui-images:latest
         ports:
         - containerPort: 8848
         volumeMounts:

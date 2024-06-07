@@ -43,7 +43,7 @@ spec:
     ebs:
       volumeSize: 100Gi
       volumeType: gp3
-  role: KarpenterInstanceNodeRole
+  role: Comfyui-Cluster-ComfyuiClusterkarpenternoderoleE627-4f2AKajIc4ks
   securityGroupSelectorTerms:
   - tags:
       Name: eks-cluster-sg-Comfyui-Cluster*
